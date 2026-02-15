@@ -8,13 +8,14 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/walkman",
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Walkman Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Andrew Park`,
+      summary: `.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `걷다가 배운 것들을 쓰고 나눕니다.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `kylemathews`,
