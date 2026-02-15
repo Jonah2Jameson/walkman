@@ -20,6 +20,20 @@ const Layout = ({ location, title, children }) => {
     )
   }
 
+// src/components/layout.js 내부
+const data = useStaticQuery(graphql`
+  query SidebarQuery {
+    allMarkdownRemark {
+      group(field: { frontmatter: { category: SELECT } }) {
+        fieldValue
+        totalCount
+      }
+    }
+  }
+`)
+
+const categories = data.allMarkdownRemark.group
+
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">{header}</header>
@@ -32,9 +46,13 @@ const Layout = ({ location, title, children }) => {
           <section>
             <h3>Categories</h3>
             <ul>
-              <li><Link to="/category/hardware">Hardware</Link></li>
-              <li><Link to="/category/software">Software</Link></li>
-              {/* 나중에 자동으로 카테고리를 가져오게 할 수 있습니다 */}
+              {categories.map(cat => (
+                <li key={cat.fieldValue}>
+                  <Link to={`/category/${cat.fieldValue.toLowerCase()}/`}>
+                    {cat.fieldValue} ({cat.totalCount})
+                  </Link>
+                </li>
+              ))}
             </ul>
           </section>
         </aside>
