@@ -329,3 +329,27 @@ a:focus {
     list-style-position: inside;
   }
 }
+
+/* 화면이 넓을 때 적용 */
+@media (min-width: 768px) {
+  .content-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* 메인 3, 사이드바 1 비율 */
+    gap: 40px; /* 사이 간격 */
+    align-items: start;
+  }
+}
+
+.sidebar {
+  padding: 10px;
+  border-left: 1px solid #ececec;
+}
+
+/* 모바일에서는 사이드바가 아래로 내려가게 함 */
+@media (max-width: 767px) {
+  .sidebar {
+    margin-top: 40px;
+    border-left: none;
+    border-top: 1px solid #ececec;
+  }
+}

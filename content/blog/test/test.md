@@ -1,7 +1,8 @@
 ---
-title: "Test 첫 번째 포스팅"
-date: "2024-05-20"
-description: "Gatsby로 블로그를 시작했습니다!"
+title: "아두이노 우노 보드 (1) LED 조작"
+date: "2026-02-15"
+category: "embedded"
+description: "LED 조작"
 ---
 
 여기에 본문을 작성하세요. **마크다운** 문법을 그대로 사용할 수 있습니다.

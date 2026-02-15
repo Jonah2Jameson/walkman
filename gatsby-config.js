@@ -13,7 +13,7 @@ module.exports = {
     title: `Walkman Blog`,
     author: {
       name: `Andrew Park`,
-      summary: `걷다가 배운 것들을 쓰고 나눕니다.\n이 블로그는 Raspberry 5 에서 구동 중이거나 구동 예정입니다.\n모종의 이유로 전원이 꺼지면 이용하실 수 없습니다.`,
+      summary: `\n걷다가 배운 것들을 쓰고 나눕니다.\n이 블로그는 Raspberry 5 에서 작성되었습니다.`,
     },
     description: ``,
     siteUrl: `https://Jonah2Jameson.github.io/walkman/`,
