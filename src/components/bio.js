@@ -35,17 +35,25 @@ const Bio = () => {
       <StaticImage
         className="bio-avatar"
         layout="fixed"
-        formats={["auto", "webp", "avif", "jpeg"]}
-        src="../images/andrew.png"
+        formats={["auto", "webp", "avif"]}
+        src="../images/andrew.jpg"
         width={50}
         height={50}
         quality={95}
         alt="Profile picture"
       />
-      {author?.name && (
+      {/* {author?.name && (
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
+        </p>
+      )} */}
+      {author?.name && (
+        <p>
+          Written by <strong>{author.name}</strong>{' '}
+          <span style={{ whiteSpace: 'pre-wrap' }}>
+            {author?.summary || null}
+          </span>
         </p>
       )}
     </div>
