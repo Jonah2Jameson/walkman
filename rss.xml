@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Gatsby Starter Blog RSS Feed]]></description><link>https://Jonah2Jameson.github.io/walkman</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 06 Apr 2026 03:52:58 GMT</lastBuildDate><item><title><![CDATA[KD Tree 를 이용한 위치탐색은 독이 될 수 있다.]]></title><description><![CDATA[KD TREE 의 가장 가까운 노드 탐색 일반적인 KD TREE…]]></description><link>https://Jonah2Jameson.github.io/walkman/test/260406_1/</link><guid isPermaLink="false">https://Jonah2Jameson.github.io/walkman/test/260406_1/</guid><pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;./kd_tree.png&quot; alt=&quot;KD TREE 의 가장 가까운 노드 탐색&quot;&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Gatsby Starter Blog RSS Feed]]></description><link>https://Jonah2Jameson.github.io/walkman</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 06 Apr 2026 04:16:30 GMT</lastBuildDate><item><title><![CDATA[KD Tree 를 이용한 위치탐색은 독이 될 수 있다.]]></title><description><![CDATA[일반적인 KD TREE…]]></description><link>https://Jonah2Jameson.github.io/walkman/test/260406_1/</link><guid isPermaLink="false">https://Jonah2Jameson.github.io/walkman/test/260406_1/</guid><pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/walkman/static/f2a42237277879419a3643bdc07e9e4e/eef2b/kd_tree_1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 82.27848101265823%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABtUlEQVR42pWT3Y4BQRCF5/0fwZW44hm4w40IESJCyCJW/MYwM8z4qfXVpsasHbJbSaWnerpPn3Oq25F73G43Bjkej7LZbGS322lut1tZrVb6zTy167rxN7nf7+V8PouFkwRkY7/fl9FopDkYDKTX68lkMpFut6vJPGva7bZ0Oh2tfd8Xw3HkKQz8er3G3zCIoiiu34XzDLZYLGQ+n6vUMAwlCAKth8OhnE6neB2ZPPQlIEyiKLxvPsrlctE5gJFltY1pjJ002p4XaIMAnk6n6tl4/KGertdrZYav5EtAOw1Zs9mnNshqJANEdwlsyOVyks1mtevJ/b8Y0oDlcimHw+Gl8UgulUpSLBbVorceEmF4ust6+JSWHAx7a06qZNfdqzwYMnqe9+PSfh8W6hwjCZgB/wDkp+se1B8kUTcaDU1jgK+VSkUPs8DXcrmsJGJAOwUQu2t4mM/npVAoxA1qtVqSyWSkWq3GgPV6XedqtdoDEAm+H6hkrgsMCa4JaXJ4t81mUztuwWGo4F0rIF1iIcxYCCDskkb/Jxw8AzQp2cbn15D2OpKdV0B7r3afqGH53N2/MvwCR2LVL8OSPsMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;KD TREE 의 가장 가까운 노드 탐색&quot;
+        title=&quot;&quot;
+        src=&quot;/walkman/static/f2a42237277879419a3643bdc07e9e4e/f058b/kd_tree_1.png&quot;
+        srcset=&quot;/walkman/static/f2a42237277879419a3643bdc07e9e4e/c26ae/kd_tree_1.png 158w,
+/walkman/static/f2a42237277879419a3643bdc07e9e4e/6bdcf/kd_tree_1.png 315w,
+/walkman/static/f2a42237277879419a3643bdc07e9e4e/f058b/kd_tree_1.png 630w,
+/walkman/static/f2a42237277879419a3643bdc07e9e4e/40601/kd_tree_1.png 945w,
+/walkman/static/f2a42237277879419a3643bdc07e9e4e/78612/kd_tree_1.png 1260w,
+/walkman/static/f2a42237277879419a3643bdc07e9e4e/eef2b/kd_tree_1.png 2691w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;일반적인 KD TREE 는 하나의 지도를 수 많은 평면 조각들로 나눈 다음에, 기준점과 해당 평면에서 가장 가까운 점을 순차적으로 탐색한다.
 그리고 더 가까워질 여지가 있다면 다른 평면을 추가로 탐색하곤 한다.&lt;/p&gt;
 &lt;p&gt;&lt;span
